@@ -1,0 +1,39 @@
+body {
+    background-color: #fffbf4;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+
+h1 {
+    color: #9d3520;
+    text-align:left;
+}
+
+h3 {
+    color: #752832;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    background-color: #ffc8a5;
+    padding: 20px;
+    gap: 30px;
+}
+
+p {
+    color: #3f0e03;
+
+}
+ @media   (max-width:600px) {
+    div{
+      flex:1;  
+    flex-direction: column ;
+    }
+   
+    
+ }
